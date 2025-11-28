@@ -21,16 +21,16 @@ MODULE MainModule
 
         WHILE TRUE DO
 
-            MoveAbsJ jpos1, v100, fine, tool0;
+            MoveAbsJ jpos1, v10, fine, tool0;
             WaitTime 0.5;
             
-            MoveAbsJ jpos2, v100, fine, tool0;
+            MoveAbsJ jpos2, v10, fine, tool0;
             WaitTime 0.5;
             
-            MoveAbsJ jpos3, v100, fine, tool0;
+            MoveAbsJ jpos3, v10, fine, tool0;
             WaitTime 0.5;
             
-            MoveAbsJ jpos1, v100, fine, tool0;
+            MoveAbsJ jpos1, v10, fine, tool0;
             WaitTime 1;
             
             TPWrite "Movement cycle completed";
